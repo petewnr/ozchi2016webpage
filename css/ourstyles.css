@@ -1,0 +1,28 @@
+/* 
+	general css for site	
+*/
+
+html,
+body 
+{
+	/*css for full size background image*/
+	background: url(../assets/streets.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	background-color: #060;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+.row
+{
+	margin-left: 2%;
+}
